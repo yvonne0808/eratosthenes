@@ -17,7 +17,8 @@ def sieve_slow(nmax):
     """
 
     all_primes = []
-
+    if max==1:
+        return []
     if nmax == 2: 
         all_primes = [2]
     else:
